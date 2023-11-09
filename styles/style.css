@@ -9,9 +9,11 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
+  display:flex;
+  align-items: center;
+  inline-size: 1135px;
+  padding-bottom: 14px;
   block-size: 100%;
-  padding: 121px 0;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -45,15 +47,16 @@ ol {
 }
 
 .result {
-  margin-right: 29px;
+  margin-right: 27px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
+  padding-right: 3px;
   margin-top: 90px;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 
 .result__video {
@@ -98,7 +101,6 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-
   flex-shrink: 0;
 }
 
@@ -139,7 +141,7 @@ ol {
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 30px */
+  line-height: 100%; 
   text-transform: uppercase;
 }
 
